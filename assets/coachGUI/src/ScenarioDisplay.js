@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useScenario } from "./ScenarioProvider";
-import "../css/scenarioDisplay.css";
+import "../css/ScenarioDisplay.css";
 
 const ScenarioDisplay = () => {
     const [scenarioText, setScenarioText] = useState("");
