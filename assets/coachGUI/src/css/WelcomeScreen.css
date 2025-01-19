@@ -1,0 +1,88 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e7e3;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 90%;
+    max-width: 1600px;
+    min-height: 700px;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.left-panel {
+    flex: 1;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #f0f4f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.welcome-title {
+    font-size: 84px;
+    color: #6b7ff2;
+    margin-bottom: 70px;
+    font-family: 'Lucida Calligraphy', cursive;
+}
+
+.styled-form {
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 500px;
+    font-family: 'Aptos', sans-serif;
+}
+
+.styled-button {
+    background-color: #6b7ff2;
+    border: none;
+    font-size: 2em;
+    padding: 22px 44px;
+    margin-top: 20px;
+}
+
+.styled-button:hover {
+    background-color: #5a6cd6;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.admin-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 1.1em;
+    padding: 10px 20px;
+}
+
+.meditation-image {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.form-control {
+    font-size: 1.4em;
+    padding: 20px;
+}
+
+.form-label {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}

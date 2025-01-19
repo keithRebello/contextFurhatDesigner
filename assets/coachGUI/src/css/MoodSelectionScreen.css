@@ -1,0 +1,81 @@
+.mood-selection-container {
+  max-width: 900px;
+  margin: 20px auto 0;
+  padding-top: 20px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.page-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.mood-options {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 900px;
+  margin: 0 auto 30px;
+}
+
+.mood-options .col {
+  text-align: center;
+  padding: 0 2px;
+}
+
+.mood-image-container {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 8px;
+}
+
+.mood-image-container:hover {
+  transform: scale(1.1);
+}
+
+.mood-image-container.selected {
+  background-color: rgba(0, 123, 255, 0.2);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.2);
+}
+
+.mood-image {
+  width: 100%;
+  max-width: 85px;
+  height: auto;
+}
+
+.mood-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.submit-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .mood-image-container {
+    width: 75px;
+    height: 75px;
+  }
+
+  .mood-image {
+    max-width: 65px;
+  }
+
+  .mood-number {
+    font-size: 1rem;
+  }
+}

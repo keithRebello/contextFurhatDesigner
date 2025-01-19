@@ -1,0 +1,43 @@
+.sensation-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sensation-options {
+  margin-bottom: 2rem;
+}
+
+.sensation-button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  padding: 0.75rem 1.25rem;
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.sensation-button:hover {
+  background-color: rgba(40, 167, 69, 0.1);
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.sensation-button.active, 
+.sensation-button:active,
+.sensation-button.selected {
+  background-color: #28a745 !important;
+  border-color: #28a745;
+  color: white !important;
+}
+
+.submit-section {
+  text-align: center;
+  margin-top: 2rem;
+}

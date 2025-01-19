@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Aptos:wght@400;700&display=swap');
+
+.aptos-bold {
+  font-family: 'Aptos', sans-serif;
+  font-weight: 700;
+}
+
+.aptos-regular {
+  font-family: 'Aptos', sans-serif;
+  font-weight: 400;
+}
