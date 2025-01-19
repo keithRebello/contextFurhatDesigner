@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useScenario } from "./ScenarioProvider";
-import "../../../../../Robotic-Coach-main_gui_edited/assets/coachGUI/src/css/scenarioDisplay.css";
+import "../css/scenarioDisplay.css";
 
 const ScenarioDisplay = () => {
     const [scenarioText, setScenarioText] = useState("");
